@@ -1,17 +1,19 @@
-@inproceedings{20:sac:blockchain,
-	Abstract = {Our main use case features multiple companies that iteratively optimize on the architectural properties of aircraft components in a decentralized manner. In each optimization step of the so-called multi-disciplinary optimization (MDO) process, sensitive data is exchanged, and we require auditability and traceability of actions taken to assure compliance with signed legal agreements. In this paper, we present a distributed protocol that coordinates authenticated and auditable exchanges of files, leveraging a smart contract. The entire life cycle of a file exchange, including file registration, access request and key distribution, is recorded and traceable via the smart contract. Moreover, when one party raises a dispute, the smart contract can identify the dishonest party without compromising the file's confidentiality. The proposed protocol provides a simple, novel, yet efficient approach to exchange files with support for data access auditability between companies involved in a private consortium with no incentive to share files outside of the protocol. We implemented the protocol in Solidity, deployed it on a private Ethereum blockchain, and validated it within the use case of a decentralized workflow.},
+@inproceedings{10.1145/3341105.3373957,
 	author = {Reniers, Vincent and Gao, Yuan and Zhang, Ren and Viviani, Paolo and Madhusudan, Akash and Lagaisse, Bert and Nikova, Svetla and Van Landuyt, Dimitri and Lombardi, Riccardo and Preneel, Bart and Joosen, Wouter},
 	title = {Authenticated and Auditable Data Sharing via Smart Contract},
-	booktitle = {Proceedings of the 35th ACM/SIGAPP Symposium on Applied Computing},
-	series = {SAC '20},
 	year = {2020},
-	isbn = {xxx-x-xxxx-xxxx-x},
-	location = {Brno, Czech Republic},
-	pages = {1--8},
-	numpages = {8},
-	publisher = {ACM},
+	isbn = {9781450368667},
+	publisher = {Association for Computing Machinery},
 	address = {New York, NY, USA},
-	keywords = {Blockchain storage, Distributed shared ledger, Decentralized data access control, Decentralized private data auditing}}
+	url = {https://doi.org/10.1145/3341105.3373957},
+	doi = {10.1145/3341105.3373957},
+	abstract = {Our main use case features multiple companies that iteratively optimize on the architectural properties of aircraft components in a decentralized manner. In each optimization step of the so-called multi-disciplinary optimization (MDO) process, sensitive data is exchanged between organizations, and we require auditability and traceability of actions taken to assure compliance with signed legal agreements.In this paper, we present a distributed protocol that coordinates authenticated and auditable exchanges of files, leveraging a smart contract. The entire life cycle of a file exchange, including file registration, access request and key distribution, is recorded and traceable via the smart contract. Moreover, when one party raises a dispute, the smart contract can be used to identify the dishonest party without compromising the file's confidentiality.The proposed protocol provides a simple, novel, yet efficient approach to exchange files with support for data access auditability between companies involved in a private consortium with no incentive to share files outside of the protocol. We implemented the protocol in Solidity, deployed it on a private Ethereum blockchain, and validated it within the use case of a decentralized workflow.},
+	booktitle = {Proceedings of the 35th Annual ACM Symposium on Applied Computing},
+	pages = {324–331},
+	numpages = {8},
+	keywords = {blockchain storage, data sharing smart contract, distributed shared ledger, auditable data sharing},
+	location = {Brno, Czech Republic},
+	series = {SAC '20}}
 
 @phdthesis{19:dl:viviani:thesis,
 	Abstract = {As deep learning techniques become more and more popular, there is the need to move these applications from the data scientist’s Jupyter notebook to efficient and reliable enterprise solutions. Moreover, distributed training of deep learning models will happen more and more outside the well-known borders of cloud and HPC infrastructure and will move to edge and mobile platforms. Current techniques for distributed deep learning have drawbacks in both these scenarios, limiting their long-term applicability.
@@ -128,7 +130,7 @@ Finally, a relevant use-case is deployed on a medium-scale infrastructure to dem
 	Url = {https://iris.unito.it/retrieve/handle/2318/1658510/385411/main.pdf},
 	Year = {2018}}
 
-	@inbook{17:viviani:advstruct,
+@inbook{17:viviani:advstruct,
 	Abstract = {This work presents an innovative approach adopted for the development of a new numerical software framework for accelerating dense linear algebra calculations and its application within an engineering context. In particular, response surface models (RSM) are a key tool to reduce the computational effort involved in engineering design processes like design optimization. However, RSMs may prove to be too expensive to be computed when the dimensionality of the system and/or the size of the dataset to be synthesized is significantly high or when a large number of different response surfaces has to be calculated in order to improve the overall accuracy (e.g. like when using ensemble modelling techniques). On the other hand, the potential of modern hybrid hardware (e.g. multicore, GPUs) is not exploited by current engineering tools, while they can lead to a significant performance improvement. To fill this gap, a software framework is being developed that enables the hybrid and scalable acceleration of the linear algebra core for engineering applications and especially of RSMs calculations with a user-friendly syntax that allows good portability between different hardware architectures, with no need of specific expertise in parallel programming and accelerator technology. The effectiveness of this framework is shown by comparing an accelerated code to a single-core calculation of a radial basis function RSM on some benchmark datasets. This approach is then validated within a real-life engineering application and the achievements are presented and discussed.},
 	Address = {Cham},
 	Author = {Viviani, P. and Aldinucci, M. and d'Ippolito, R. and Lemeire, J. and Vucinic, D.},
