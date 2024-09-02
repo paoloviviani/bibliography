@@ -1,3 +1,37 @@
+@inproceedings{hpdc_keynote_2024,
+author = {Viviani, Paolo},
+title = {Demistifying HPC-Quantum integration: it's all about scheduling},
+year = {2024},
+isbn = {9798400706431},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3659996.3673223},
+doi = {10.1145/3659996.3673223},
+abstract = {Recent research on the integration between HPC and quantum computer was mostly focused on the software stack and quantum circuit compilation aspects, neglecting critical issues like HPC resource allocation and job scheduling given the scarcity of QPUs, and disregarding the heterogeneity of current quantum technologies and their computational models (e.g., digital vs. analogue). This work would like to bring the attention to issues that are critical to achieve integration with operational HPC environments given the current status of quantum computers maturity and heterogeneity.},
+booktitle = {Proceedings of the 2024 Workshop on High Performance and Quantum Computing Integration},
+pages = {1–3},
+numpages = {3},
+keywords = {quantum computing, HPC, parallel programming models, job scheduling, resource allocation},
+location = {Pisa, Italy},
+series = {HPQCI '24}
+}
+
+@inproceedings{lubranoAdvancedResourceAllocation2024,
+  title = {Advanced {{Resource Allocation}} in the {{Context}} of {{Heterogeneous Workflows Management}}},
+  booktitle = {Proceedings of the 2nd {{Workshop}} on {{Workflows}} in {{Distributed Environments}}},
+  author = {Lubrano, Francesco and Vercellino, Chiara and Vitali, Giacomo and Viviani, Paolo and Scionti, Alberto and Terzo, Olivier},
+  year = {2024},
+  month = apr,
+  pages = {14--20},
+  publisher = {ACM},
+  address = {Athens Greece},
+  doi = {10.1145/3642978.3652835},
+  urldate = {2024-04-23},
+  isbn = {9798400705465},
+  abstract = {In High-Performance Computing (HPC), workflows are utilized to define and manage a set of interdependent computations which allow the users to extract insights from (scientific) numerical simulations or data analytics. HPC platforms can perform extreme-scale simulations, combining Artificial Intelligence (AI) training and inference and data analytics (we refer to heterogeneous workflows), by providing tools and computing resources which serve a variety of use-cases spanning very diverse application domains (e.g., weather forecasting, quantum mechanics, etc.). Executing such workflows at scale requires to handle dependencies, job submission automation, I/O mechanisms. Despite State-of-the-Art batch schedulers can be configured and integrated with tools accomplishing this automation, a number of cases where resource allocation can lead to inefficiencies still exist. In this paper, to overcome these limitations, we present the WARP (Workflow-aware Advanced Resource Planner), a tool that integrates with workflow management tools and batch schedulers, to reserve in advance resources for an optimal execution of jobs, based on their duration, dependencies and machine load. WARP has been designed to minimize the overall workflow execution, without violating the priority policies for cluster users imposed by the system administrators.},
+  langid = {english}
+}
+
 @inproceedings{vercellinoBBQmISParallelQuantum2023,
   title = {{{BBQ-mIS}}: {{A Parallel Quantum Algorithm}} for {{Graph Coloring Problems}}},
   shorttitle = {{{BBQ-mIS}}},
